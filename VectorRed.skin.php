@@ -1,6 +1,6 @@
 <?php
 /**
-* Skin file for skin VectorBlue.
+* Skin file for skin VectorRed.
 *
 * @file
 * @ingroup Skins
@@ -14,14 +14,14 @@ require_once( dirname( __FILE__ ) . '/../Vector.php' );
  */
 class SkinVectorBlue extends SkinVector {
 
-	var $skinname = 'vectorblue', $stylename = 'vectorblue';
+	var $skinname = 'vectorred', $stylename = 'vectorred';
 
 	/**
 	 * @param $out OutputPage object
 	 */
 	function setupSkinUserCss( OutputPage $out ){
 		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( "skins.vectorblue" );
+		$out->addModuleStyles( "skins.vectorred" );
 	}
 
 }
